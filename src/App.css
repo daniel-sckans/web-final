@@ -1,0 +1,57 @@
+/* HEADER */
+
+.header--main {
+    padding: 5rem 0 5rem 0; 
+    
+    font-size: 5rem; 
+    line-height: 1; 
+    background-color: #8ef;
+}
+
+.header--main [class ^= "header--main__"] {
+    display: block; 
+}
+
+.header--main__1 {
+    text-align: center; 
+    color: #00f; 
+}
+
+.header--main__2 {
+    text-align: right; 
+    color: #f00; 
+}
+
+/* Q&A */
+
+.question {
+    margin: 1em; 
+}
+
+.answer {
+    display: block; 
+    margin: 1em; 
+    
+    text-decoration: none;
+}
+
+/* PICTURES */
+
+.picture {
+    width: 100%; 
+    height: auto; 
+    vertical-align: bottom;
+}
+
+/* FOOTER */
+
+.link-home {
+    position: absolute; 
+    display: block; 
+    width: 100%; 
+    bottom: 0; 
+    padding: 1.2em; 
+
+    text-align: center; 
+    background-color: #ccc;
+}
